@@ -19,6 +19,13 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+1. vite uses a wrapper over jest and react-testing-library vitest with that you will be bound to use vitest.
+2. jest is common for the whole js ecosystem and there are sister libraries like : vue testing library, angular testing library , sevelte testing library so once you learn jest and react tetsing library same knowldge can be transferred to othe frameworks as well
+3. React Testing Library: gives you access to VDOM, events. React Testing Library focuses primarily on component testing and simulating user interactions with the UI. RTL encourages you to write tests that simulate real-world user interactions, such as clicks, typing, and other events, and verifies the UI updates accordingly
+4. JEST: js test runner(to actually run the test) test, describe, expect. Jest is a JavaScript testing framework developed by Facebook. It is used for unit testing and integration testing across various types of JavaScript codebases. Jest can handle unit tests, integration tests, and snapshot tests for any JavaScript code, not limited to React components
+5. React Testing Library is often used with Jest as the test runner. Jest handles the execution of the tests, and RTL provides utility functions to render components and simulate user actions in tests.
+6. Jest is also responsible for asserting whether the expected outcome of the test passes or fails, while RTL is used to interact with and query the DOM elements.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -68,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
